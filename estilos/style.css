@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#part1 {
+    flex-basis: 55%;
+    background: #ffffff url('../imagens/water.jpg') center center no-repeat scroll;
+    background-size: contain;
+}
+
+#part2 {
+    flex-basis: 45%;
+    background-image: linear-gradient(to bottom, #7A96F0, #7FBDFA, #7FCBE3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#titulo {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.178);
+}
+
+#principal {
+    background-color: #ffffff;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 25px 25px 35px 25px;
+    max-width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+#subt {
+    color: #395B66;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.f {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dados, button {
+    font-size: 18px;
+    height: 40px;
+}
+
+button {
+    background-color: #395B66;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #72B6CC;
+    color: #ffffff;
+}
+
+#rodape {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.178);
+}
+
+#rodape a {
+    color: #ffffff;
+    font-weight: bold;
+}

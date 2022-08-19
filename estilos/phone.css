@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1000px) {
+    #part1 {
+        flex-basis: 45%;
+        background-repeat: repeat;
+        background-position: center top;
+    }
+
+    #part2 {
+        flex-basis: 55%;
+    }
+
+    #titulo {
+        font-size: 1.3em;
+    }
+}
+
+
+@media only screen and (max-width: 710px) {
+    #part1 {
+        display: none;
+    }
+
+    #part2 {
+        flex-basis: 100%;
+        gap: 10px;
+    }
+
+    #titulo {
+        font-size: 1.2em;
+    }
+
+    #principal {
+      font-size: 1.2em;
+      padding: 20px 15px 25px 15px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    #titulo {
+        font-size: 1.1em;
+    }
+
+    #principal {
+        font-size: 1.1em;
+        padding: 15px 15px 20px 15px;
+    }
+
+    #rodape {
+        font-size: 18px;
+    }
+}
